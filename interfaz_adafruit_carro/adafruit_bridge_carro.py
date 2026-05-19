@@ -2,21 +2,6 @@ import sys
 import time
 import threading
 
-try:
-    import serial
-    from serial.tools import list_ports
-except ImportError:
-    print("Falta instalar pyserial.")
-    print("Ejecuta: python -m pip install pyserial")
-    sys.exit(1)
-
-try:
-    from Adafruit_IO import MQTTClient
-except ImportError:
-    print("Falta instalar adafruit-io.")
-    print("Ejecuta: python -m pip install adafruit-io")
-    sys.exit(1)
-
 
 # =========================
 # CONFIGURACION DEL USUARIO
