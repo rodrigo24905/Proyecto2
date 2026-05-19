@@ -1,0 +1,39 @@
+#ifndef CONFIG_H_
+#define CONFIG_H_
+
+#define F_CPU 16000000UL
+
+
+#define UART_BAUD 9600UL
+
+#define SERVO_MIN_US 600
+#define SERVO_MAX_US 2400
+#define SERVO_CENTER_US 1500
+
+#define DIR_MIN_ANGLE       10
+#define DIR_CENTER_ANGLE    75
+#define DIR_MAX_ANGLE       140
+
+#define RIGHT_DOOR_CLOSE_ANGLE   0
+#define RIGHT_DOOR_OPEN_ANGLE    30
+
+#define LEFT_DOOR_CLOSE_ANGLE    180
+#define LEFT_DOOR_OPEN_ANGLE     150
+
+#define DIR_MIN_US          700
+#define DIR_CENTER_US       1350
+#define DIR_MAX_US          2000
+
+#define RIGHT_DOOR_CLOSE_US 600
+#define RIGHT_DOOR_OPEN_US  900
+
+#define LEFT_DOOR_CLOSE_US  2400
+#define LEFT_DOOR_OPEN_US   2100
+
+
+#define MOTOR_MIN_ACTIVE_PWM 25
+
+#define SOFT_SERVO_TICK_US 20
+#define SOFT_SERVO_FRAME_TICKS 1000 
+
+#endif 
